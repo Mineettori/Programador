@@ -20,6 +20,8 @@ body {
     max-width: 1000px;
     margin: 0 auto;
     padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 80px;
 }
 
 .header {
@@ -58,6 +60,7 @@ body {
 }
 
 .menu a {
+    font-weight: bold;
     text-decoration: none;
     color: black;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
@@ -67,6 +70,13 @@ body {
     text-align: center;
     font-weight: bold;
     padding-top: 15px;
+    margin: 20px;
+    padding: 10px;
+    background-color: aqua;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 main {
