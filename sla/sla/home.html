@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: #dd6b00;
+        }
+
+        .navigation {
+            background-color: #ff7b00;
+        }
+
+        footer {
+            background-color: #ff7b00;
+            color: white;
+        }
+
+        .centralizado {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 9999;
+            padding: 20px 40px;
+            font-size: 18px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            background-color: #ff8e25;
+            color: white;
+            transition: all 0.3s ease;
+        }
+
+        .centralizado:hover {
+            background-color: #e78121;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+    <title>Bem-Vindo</title>
+</head>
+<body>
+    <div class="container1">
+        <header class="header">
+            <h1>Como é ser Progamador</h1>
+        </header>
+    </div>
+    <div class="navigation"></div>
+    <main>
+        <button class="centralizado"><a href="sobre.html">Entre</a></button>
+    </main>
+    <footer>
+        <p>Ettori@ - 2025</p>
+        <audio autoplay loop controls>
+            <source src="music/Sunburst.mp3" type="audio/mpeg">
+        </audio>
+    </footer>
+</body>
+</html>
